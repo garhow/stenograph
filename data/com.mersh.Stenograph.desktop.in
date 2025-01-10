@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Stenograph
+GenericName=Speech-to-Text Utility
+Comment=Type with your voice
+Exec=stenograph
+Icon=com.mersh.Stenograph
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=GTK;Accessibility;Transcription;Speech-to-Text;Voice;Input
+StartupNotify=true
+DBusActivatable=true

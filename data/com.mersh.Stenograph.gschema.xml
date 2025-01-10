@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="stenograph">
+	<schema id="com.mersh.Stenograph" path="/com/mersh/Stenograph/">
+    <key name='position-snapping' type='b'>
+      <default>true</default>
+      <summary>Snap to edges of screen</summary>
+      <description>
+        If enabled, the dashboard will snap to the edges of the screen when moved by the pointer.
+        If disabled, the dashboard can be freely moved anywhere on the screen.
+      </description>
+    </key>
+	</schema>
+</schemalist>

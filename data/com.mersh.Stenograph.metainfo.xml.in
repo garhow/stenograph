@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.mersh.Stenograph</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>Stenograph</name>
+  <summary>Type with your voice</summary>
+  <description>
+    <p>Stenograph is a speech-to-text application designed for individuals who have difficulty typing.</p>
+    <p>It allows users to speak directly to their device, with their words instantly transcribed into text. Whether for writing documents, composing messages, or interacting with apps, Stenograph provides an accessible solution for hands-free communication.</p>
+  </description>
+
+  <developer id="tld.vendor">
+    <name>Garrett Howard</name>
+  </developer>
+
+  <url type="homepage">https://www.mersh.com/projects/stenograph</url>
+  <url type="vcs-browser">https://github.com/garhow/stenograph</url>
+  <url type="bugtracker">https://github.com/garhow/stenograph/issues</url>
+  <!-- <url type="translate">https://example.org/translate</url> -->
+  <!-- <url type="help">https://example.org/help</url> -->
+  <!-- <url type="donation">https://www.mersh.com/donate</url> -->
+  <!-- <url type="contact">https://www.mersh.com/contact</url> -->
+  <!-- <url type="contribute">https://github.com/garhow/stenograph/blob/main/CONTRIBUTING.md</url> -->
+
+  <translation type="gettext">stenograph</translation>
+  <!-- All graphical applications having a desktop file must have this tag in the MetaInfo.
+     If this is present, appstreamcli compose will pull icons, keywords and categories from the desktop file. -->
+  <launchable type="desktop-id">com.mersh.Stenograph.desktop</launchable>
+  <!-- Use the OARS website (https://hughsie.github.io/oars/generate.html) to generate these and make sure to use oars-1.1 -->
+  <content_rating type="oars-1.1" />
+
+  <branding>
+    <color type="primary" scheme_preference="light">#ff00ff</color>
+    <color type="primary" scheme_preference="dark">#993d3d</color>
+  </branding>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://example.org/example1.png</image>
+      <caption>A caption</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://example.org/example2.png</image>
+      <caption>A caption</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.0.1" date="2024-01-18">
+      <url type="details">https://example.org/changelog.html#version_1.0.1</url>
+      <description translate="no">
+        <p>Release description</p>
+        <ul>
+          <li>List of changes</li>
+          <li>List of changes</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+</component>

@@ -1,0 +1,6 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/com.mersh.Stenograph.desktop.in
+data/com.mersh.Stenograph.metainfo.xml.in
+data/com.mersh.Stenograph.gschema.xml
+src/window.blp
